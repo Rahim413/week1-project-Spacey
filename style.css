@@ -1,9 +1,19 @@
 
+
+   /* styling all background images */
+   .style-all{
+    height:100vh;
+    width:100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0px;
+}
+
     /* styling the nav bar container */
     .nav-bar {
     padding: 25px;
-    font-size: 18px;
-    font-style: normal bold;
+    font-family: 'Times New Roman', Times, serif;
     position: fixed;
     top: 50px;
     left: 0px;
@@ -15,27 +25,82 @@
     margin-right: 20px;
     margin-left: 30px; 
     color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: none;
     
   }
   .nav-bar :hover {
    
   }
-    
-.style-all{
-    height:100vh;
-    width:100vw;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 0px;
-}
+ .logo{
+    font-size: 24px;
+    font-weight:bolder;
+
+ }
 
 .section-one{
     background-image: url(https://images2.alphacoders.com/134/1349840.png);
+   
+}
+
+/* The first page styling */
+.page1-content{
+    color: white;
+    position: absolute;
+    left:100px;
+    bottom: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+.page1-button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-color: white;
+    border-radius: 5px;
+    box-sizing: 1px;
 }
 .section-two{
     background-image: url(https://images.pexels.com/photos/355887/pexels-photo-355887.jpeg);
 }
+/* The second page styling */
+.page2-content{
+    color: white;
+    position: absolute;
+    left:100px;
+    bottom:-550px;
+    flex-direction: column;
+
+}
+.page2-button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-color: white;
+    border-radius: 5px;
+    box-sizing: 1px;
+}
+
 .section-three{
     background-image: url(https://4kwallpapers.com/images/walls/thumbs/11455.jpg );
+}
+/* The third page styling */
+.page3-content{
+    color: white;
+    margin-left: 100px;
+    flex-direction: column;
+    padding-top: 400px;
+
+}
+.page3-button{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border-color: white;
+    border-radius: 5px;
+    box-sizing: 1px;
 }
