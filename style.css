@@ -1,106 +1,145 @@
 
+/* Styling the Logo (SPACEY X) */
+h1 {
+    color: white;
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    top: 30px;
+    left: 70px;
+}
 
-   /* styling all background images */
-   .style-all{
-    height:100vh;
-    width:100vw;
+/* Styling all background images */
+.style-amges {
+    height: 100vh;
+    width: 100vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-    /* styling the nav bar container */
-    .nav-bar {
-    padding: 25px;
+/* Styling the nav bar container */
+.nav-bar {
     font-family: 'Times New Roman', Times, serif;
     position: fixed;
-    top: 50px;
-    left: 0px;
-    right: 0px;
-             }
-    /* styling the nav bar content */
-  .nav-bar a {
-    margin-top: 0px;
-    margin-right: 20px;
-    margin-left: 30px; 
+    top: 60px;
+    left: 300px;
+}
+
+/* Styling the nav bar content */
+.nav-bar a {
+    padding-left: 30px;
     color: rgb(255, 255, 255);
     font-weight: bolder;
     text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: rgb(135, 125, 125);
+    text-decoration: underline;
     
-  }
-  .nav-bar :hover {
-   
-  }
- .logo{
+}
+.nav-bar a:active{
+    color: #4f2727;
+}
+
+/* The first, second, and third page content styling */
+.page1-content,.page2-content,.page3-content {
     font-size: 24px;
-    font-weight:bolder;
+    color: white;
+    flex-direction: column;
+    margin-right: auto;  /* Align all content to the left */
+    margin-left: 100px;  
+    margin-top: 170px;    /* Push the content down */
+}
 
- }
-
-.section-one{
+/* Linked background images */
+.section-one {
     background-image: url(https://images2.alphacoders.com/134/1349840.png);
-   
 }
 
-/* The first page styling */
-.page1-content{
+.section-two {
+    background-image: url(https://png.pngtree.com/background/20230527/original/pngtree-two-space-planets-are-out-in-the-space-picture-image_2756581.jpg);
+}
+
+.section-three {
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/89/995/738/space-colors-blue-purple-stars-wallpaper-thumb.jpg);
+}
+
+.all-button {
+    background-color: black;
     color: white;
-    position: absolute;
-    left:100px;
-    bottom: 150px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    height: 40px;
+    width: 120px;
+    border-color: rgb(239, 228, 228);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.all-button:hover {
+    background-color: white;
+    color: black;
+}
+.all-button:active{
+    background-color: rgb(60, 66, 133);
+}
+.main-content {
+    flex: 1;
+}
+
+/* Styling footer */
+footer {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    width: 99.4%;
+    padding: 15px 25px;
     display: flex;
-    flex-direction: column;
-
-}
-.page1-button{
-    background-color: black;
-    color: white;
-    height: 40px;
-    width: 120px;
-    border-color: white;
-    border-radius: 5px;
-    box-sizing: 1px;
-}
-.section-two{
-    background-image: url(https://images.pexels.com/photos/355887/pexels-photo-355887.jpeg);
-}
-/* The second page styling */
-.page2-content{
-    color: white;
-    position: absolute;
-    left:100px;
-    bottom:-550px;
-    flex-direction: column;
-
-}
-.page2-button{
-    background-color: black;
-    color: white;
-    height: 40px;
-    width: 120px;
-    border-color: white;
-    border-radius: 5px;
-    box-sizing: 1px;
+    justify-content: space-between;
+    
 }
 
-.section-three{
-    background-image: url(https://4kwallpapers.com/images/walls/thumbs/11455.jpg );
+.copy-right {
+    margin: 0; 
+    padding-left: 70px; /* make copy right closer to social media icons */
 }
-/* The third page styling */
-.page3-content{
-    color: white;
-    margin-left: 100px;
-    flex-direction: column;
-    padding-top: 400px;
 
+/* Social media icon styles */
+.social-media {
+    display: flex; /* Arrange icons in a row */
+    gap: 20px; /* make spaces between icons */
+    margin: 0; 
+    padding-right: 120px; 
 }
-.page3-button{
-    background-color: black;
-    color: white;
-    height: 40px;
-    width: 120px;
-    border-color: white;
-    border-radius: 5px;
-    box-sizing: 1px;
+.media-icon {
+    font-family: "Font Awesome 5 Brands";
+}
+.social-media a {
+    color: #ecf0f1;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+/* Hover for social media icons */
+.fa-facebook-square:hover {
+    color: #1877F2;
+}
+
+.fa-linkedin:hover {
+    color: #0077B5;
+}
+
+.fa-instagram:hover {
+    color: #833AB4;
+}
+
+.fa-youtube-square:hover {
+    color: #FF0000;
 }
