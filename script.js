@@ -28,6 +28,6 @@ document.querySelector(".page3-button").addEventListener("click", function() {
 
             //For Background Music
 // To paly backgroung music when user clicked on the page
-document.addEventListener("click", function() {
-        let audio = document.querySelector(".background-music");
-        if (audio.paused) { audio.play(); }});
+// document.addEventListener("click", function() {
+//         let audio = document.querySelector(".background-music");
+//         if (audio.paused) { audio.play(); }});
